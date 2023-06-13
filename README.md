@@ -24,8 +24,7 @@ export AWS_SESSION_TOKEN=<yours>
 3. `terraform init` -> Initialize a working directory for Terraform
 4. `terraform apply` -> Create the AWS infastructure
 5. Now, wait until the console prints out the IP address of the Minecraft Server
-6. To test rebooting, enter `aws ec2 describe-instances --filter "Name=tag:Name,Values=Minecraft Server" --query "Reservations[*].Instances[*].InstanceId"`
-Then, copy the instance id from the Terraform output. It should look like this: `i-05a55ecbf2f5e90e6`
+6. To test rebooting, copy the instance id from the Terraform output. It should look like this: `i-05a55ecbf2f5e90e6`
 Then, run this but replace the id with your copied instance id: `aws ec2 reboot-instances --instance-ids i-05a55ecbf2f5e90e6` 
 
 # How To Connect
