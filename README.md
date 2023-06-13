@@ -18,7 +18,7 @@ The script `main.tf` executes the following steps:
 # Commands to Run
 1. First, clone this repository, then using a CLI (Git Bash works great on Windows), CD into the root of this repository on your local machine.
 `cd /your/path/to/CS312_Final`
-2. Export your AWS credentials so we can connect using Terraform
+2. Export your AWS credentials so we can let Terraform setup the server
 ``` 
 export AWS_ACCESS_KEY_ID=<yours>
 export AWS_SECRET_ACCESS_KEY=<yours>
