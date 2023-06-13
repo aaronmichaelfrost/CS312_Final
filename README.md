@@ -10,7 +10,9 @@ Using Terraform to provision an EC2 server, install Minecraft, and setup a servi
 - Install AWS CLI V2 (Windows Powershell: `msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi`)
 - Terraform (Windows Powershell: `choco install terraform`)
 - Minecraft Java Client version 1.19.4
-# Overview
+# Terraform Overview
+The script `main.tf` executes the following steps:
+![Alt text](/images/diagram1.png?raw=true)
 
 # Commands to Run
 1. First, clone this repository, then using a CLI (Git Bash works great on Windows), CD into the root of this repository on your local machine.
