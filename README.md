@@ -12,6 +12,7 @@ Using Terraform to provision an EC2 server, install Minecraft, and setup a servi
 - Minecraft Java Client version 1.19.4
 # Terraform Overview
 The script `main.tf` executes the following steps:
+
 ![Alt text](/images/diagram1.png?raw=true)
 
 # Commands to Run
